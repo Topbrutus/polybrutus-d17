@@ -1,0 +1,22 @@
+name: Verify Polybrutus D17 exact certificate
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install symbolic exact dependency
+        run: python -m pip install sympy==1.14.0
+      - name: Certify D17 labelled metric, Gram rank and chosen graph spectrum
+        run: python src/verify_d17.py
+      - name: Independently certify 231 rational distances and model spectral roots
+        run: python tests/independent_d17.py

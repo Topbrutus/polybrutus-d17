@@ -3,7 +3,7 @@
   "dimension": 17,
   "repository": "Topbrutus/polybrutus-d17",
   "branch": "main",
-  "state": "CANDIDATE_VERIFIED_LOCAL_NOT_PUBLISHED",
+  "state": "DONE",
   "vertices": 22,
   "pairs": 231,
   "affine_rank": 17,
@@ -12,15 +12,52 @@
   "parent_doi": "10.5281/zenodo.24408979",
   "parent_github_tag": "Topbrutus/polybrutus-d16@v0.1.0",
   "parent_tag_commit": "c7700a46cb0b2c3d2556f50a207d86da84055ea0",
-  "github_commit": null,
-  "github_release_tag": null,
-  "zenodo_record_id": null,
-  "zenodo_doi": null,
+  "github_commit": "1ef37f156292aa80f8c3f5d07bb889dc4b4492ab",
+  "github_release_tag": "v0.1.0",
+  "zenodo_record_id": 24409067,
+  "zenodo_doi": "10.5281/zenodo.24409067",
   "scientific_delta": "Exact rank-17 22-point labelled metric, 210 old pair distances preserved, model eigenvalue 11 with multiplicity 11.",
   "novel_universal_theorem": "NOT CLAIMED",
   "physical_claim": "NONE",
   "human_peer_review": "NOT_DONE",
   "AI_disclosure": "OpenAI ChatGPT (Astra) substantially assisted verification software, mathematical modelling, writing and release; not an author.",
-  "verification": "Primary and independently implemented rational metric programs PASS locally; GitHub Actions pending",
-  "next_action": "Create private GitHub D17, pass CI, freeze scientific source tag, stage one Zenodo draft and verify all three files before publishing."
+  "verification": {
+    "coordinate_affine_rank": "PASS",
+    "centered_gram_rank": "PASS",
+    "gram_psd_exact_identity": "PASS",
+    "parent_labelled_pair_distances": "210/210 PASS",
+    "new_labelled_pair_distances": "21/21 PASS",
+    "independent_rational_metric": "231/231 PASS",
+    "negative_controls": "4/4 PASS",
+    "selected_ideal_graph_eigenvalues": "11 x11; 21/2 x4 PASS",
+    "github_actions": "PASS",
+    "zenodo_public_files": "3/3 PASS"
+  },
+  "next_action": "Only after NEXT go begin D18 using immutable D17 v0.1.0: 23 vertices, 253 labelled pairs, 231 prior distances retained, 22 new squared distances 2R², affine rank target 18. Do not start D18 before another go.",
+  "github_public_verified": true,
+  "github_actions": {
+    "run_id": 44845435187,
+    "conclusion": "success",
+    "head_sha": "1ef37f156292aa80f8c3f5d07bb889dc4b4492ab"
+  },
+  "github_main_note": "Post-publication DOI and integrity-index metadata can move main, but science v0.1.0 tag remains unchanged.",
+  "zenodo_public_verified": true,
+  "zenodo_files": [
+    {
+      "name": "POLYBRUTUS_D17_SOURCE_v0.1.0_GITHUB_TAG.zip",
+      "size": 174751,
+      "sha256": "2a373adab4c2c8fc34e2b33e5485bd85de4fe4773a374585e7d9e5c7e10af467"
+    },
+    {
+      "name": "POLYBRUTUS_17D_NOTE.pdf",
+      "size": 155764,
+      "sha256": "a63dcae281af990ecbb883e559c720f7787e4717da3c27f42b7c86207a31d3b2"
+    },
+    {
+      "name": "certificate_d17.json",
+      "size": 19059,
+      "sha256": "c6c0d3c79dc2290b73d85e3eacba666da903754843ee8dde7f07f2a56aeb776b"
+    }
+  ],
+  "publication_approval": "Topbrutus previously declared each go starts a single dimension paired with one new GitHub and Zenodo release, and gave go for D17."
 }

@@ -1,5 +1,14 @@
 # POLYBRUTUS 17D — Exact 22-point Euclidean completion and an elevenfold graph mode
 
+## Official verified public science release
+
+- **Zenodo DOI:** [10.5281/zenodo.24409067](https://doi.org/10.5281/zenodo.24409067), [public record 24409067](https://zenodo.org/records/24409067), verified using the Zenodo public REST API.
+- **Frozen scientific source:** [`v0.1.0`](https://github.com/Topbrutus/polybrutus-d17/tree/v0.1.0), commit `1ef37f156292aa80f8c3f5d07bb889dc4b4492ab`.
+- **Successful independent CI:** [GitHub Actions D17 run 44845435187](https://github.com/Topbrutus/polybrutus-d17/actions/runs/44845435187) (`success` for the fixed scientific source).
+- **Zenodo verified artifacts:** immutable Git source ZIP, mathematical PDF note and full 231-pair exact JSON certificate.
+- **Research scope:** 17D affine Euclidean distance metric and one chosen ideal graph model, not a novel universal theorem or extra physical dimension.
+
+
 **Human author and scientific responsibility:** Gabriel St-Pierre, independent researcher.  
 **Research status:** independently reproducible exact mathematical case study; no independent human peer review.  
 **AI-use disclosure:** OpenAI ChatGPT (Astra) substantially assisted exact symbolic verification, implementation of a separate rational verifier, the chosen model spectrum, scientific drafting and release; AI is not an author.
